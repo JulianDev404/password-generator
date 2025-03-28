@@ -1,59 +1,98 @@
-# PasswordGenerator
+# 🔐 Generador de Contraseñas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+## 📋 Descripción
 
-## Development server
+Una aplicación web moderna y elegante que permite crear contraseñas seguras de forma rápida y sencilla. Personaliza la longitud y los tipos de caracteres según tus necesidades de seguridad, con una interfaz intuitiva y amigable que ofrece retroalimentación visual sobre la fortaleza de tu contraseña.
 
-To start a local development server, run:
+## ✨ Características
+
+- Generación de contraseñas seguras y aleatorias
+- Personalización de longitud (4-50 caracteres)
+- Opciones para incluir/excluir:
+  - Letras mayúsculas (A-Z)
+  - Letras minúsculas (a-z)
+  - Números (0-9)
+  - Símbolos especiales (!@#$%^&\*)
+  - Puntuación (.,:;)
+- Indicador visual de fortaleza de contraseña
+- Función de copia rápida al portapapeles
+- Modo oscuro/claro integrado
+- Diseño responsive para todos los dispositivos
+- Interfaz de usuario moderna y atractiva
+
+## 🔧 Requisitos Previos
+
+- [Node.js](https://nodejs.org/) (v18 o superior)
+- [npm](https://www.npmjs.com/) (v9 o superior)
+- [Angular CLI](https://angular.io/cli) (v19.2.4 o superior)
+
+Puedes verificar tus versiones actuales con:
+
+```bash
+node --version
+npm --version
+ng version
+```
+
+## 📥 Instalación
+
+### 1. Clona el repositorio
+
+```bash
+git clone https://github.com/JulianDev404/password-generator.git
+cd generador-contrasenas
+```
+
+### 2. Instala las dependencias
+
+```bash
+npm install
+```
+
+## 🚀 Inicio de la Aplicación
+
+### Desarrollo Local
+
+Para iniciar el servidor de desarrollo:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navega a `http://localhost:4200/` en tu navegador. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
 
-## Code scaffolding
+### Inicio con opciones adicionales
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para abrir automáticamente en el navegador:
 
 ```bash
-ng generate --help
+ng serve --open
 ```
 
-## Building
-
-To build the project run:
+Para usar un puerto diferente:
 
 ```bash
-ng build
+ng serve --port 4201
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🤝 Contribuir
 
-## Running unit tests
+Las contribuciones son bienvenidas. Para contribuir:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. Haz un Fork del proyecto
+2. Crea una rama para tu funcionalidad (`git checkout -b feature/amazing-feature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some amazing feature'`)
+4. Haz Push a la rama (`git push origin feature/amazing-feature`)
+5. Abre un Pull Request
 
-```bash
-ng test
-```
+## 👤 Autor
 
-## Running end-to-end tests
+Desarrollado con ❤️ por [juliandev.do](https://juliandev.do)
 
-For end-to-end (e2e) testing, run:
+## 📄 Licencia
 
-```bash
-ng e2e
-```
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+¿Problemas o sugerencias? [Abre un issue](https://github.com/tuusuario/generador-contrasenas/issues).

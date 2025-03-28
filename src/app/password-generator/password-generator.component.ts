@@ -26,6 +26,7 @@ export class PasswordGeneratorComponent implements OnInit {
   strengthTextClass: string = '';
   copied: boolean = false;
   error: string = '';
+  currentYear = new Date().getFullYear();
 
   constructor(
     private passwordService: PasswordService,
