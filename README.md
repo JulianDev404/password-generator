@@ -95,4 +95,4 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ---
 
-¿Problemas o sugerencias? [Abre un issue](https://github.com/JulianDev404/generador-contrasenas/issues).
+¿Problemas o sugerencias? [Abre un issue](https://github.com/JulianDev404/password-generator/issues/new).
